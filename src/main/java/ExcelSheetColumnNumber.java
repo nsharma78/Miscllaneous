@@ -19,7 +19,7 @@ public class ExcelSheetColumnNumber {
         System.out.println("Column number for the given string is: " + getNumber(input));
     }
 
-    private static int getNumber(String input) {
+    private static int getNumber(String input) { // O(n) O(1)
         if(input == null || input.isEmpty())
             return 0;
 
