@@ -23,7 +23,7 @@ public class EvaluateBooleanExpression {
         System.out.println("Result: " + evalBoolean(input));
     }
 
-    private static boolean evalBoolean(String input) {
+    private static boolean evalBoolean(String input) { // O(n) O(1) where n is the length of string
         if(input == null || input.isEmpty())
             return true;
 
